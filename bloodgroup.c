@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 void main()
-{ char Name[40], G[5], answer[10];
+{ char Name[20], G[5], answer[10];
   int i;
   do
   {
@@ -13,7 +13,7 @@ void main()
       printf("What is your blood group [A, B, AB, or O]? ");
       scanf("%s", G);
 
-      if (strcmp(G, "A") !=0  &&
+      if (strcmp(G, "C") !=0  &&
                             strcmp(G, "B") !=0  &&
                             strcmp(G, "AB") !=0   &&
                             strcmp(G, "O") !=0 )
